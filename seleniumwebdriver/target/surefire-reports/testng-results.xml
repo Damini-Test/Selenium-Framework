@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Adidas is lauched]]>
+    </line>
+    <line>
+      <![CDATA[BMW is lauched]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-13T13:52:58 IST" name="Surefire suite" finished-at="2024-11-13T13:53:18 IST" duration-ms="19752">
+    <groups>
+      <group name="Bollywood,PanIndia">
+        <method signature="ShahrukhKhan_Test.launchVicky()[pri:0, instance:org.testScripts.ShahrukhKhan_Test@ea9b7c6]" name="launchVicky" class="org.testScripts.ShahrukhKhan_Test"/>
+      </group> <!-- Bollywood,PanIndia -->
+      <group name="Bollywood">
+        <method signature="Vicky_Test.launchVicky()[pri:0, instance:org.testScripts.Vicky_Test@e077866]" name="launchVicky" class="org.testScripts.Vicky_Test"/>
+      </group> <!-- Bollywood -->
+    </groups>
+    <test started-at="2024-11-13T13:52:58 IST" name="Surefire test" finished-at="2024-11-13T13:53:18 IST" duration-ms="19752">
+      <class name="org.testScripts.Vicky_Test">
+        <test-method signature="launchVicky()[pri:0, instance:org.testScripts.Vicky_Test@e077866]" started-at="2024-11-13T13:53:16 IST" name="launchVicky" finished-at="2024-11-13T13:53:18 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchVicky -->
+      </class> <!-- org.testScripts.Vicky_Test -->
+      <class name="org.testScripts.ShahrukhKhan_Test">
+        <test-method signature="launchVicky()[pri:0, instance:org.testScripts.ShahrukhKhan_Test@ea9b7c6]" started-at="2024-11-13T13:53:12 IST" name="launchVicky" finished-at="2024-11-13T13:53:16 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchVicky -->
+      </class> <!-- org.testScripts.ShahrukhKhan_Test -->
+      <class name="org.TestNgWorks.TestngDemo">
+        <test-method signature="launchGoogle()[pri:0, instance:org.TestNgWorks.TestngDemo@726e5805]" started-at="2024-11-13T13:52:58 IST" name="launchGoogle" finished-at="2024-11-13T13:53:04 IST" duration-ms="6049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+        <test-method signature="test1()[pri:0, instance:org.TestNgWorks.TestngDemo@726e5805]" started-at="2024-11-13T13:53:04 IST" name="test1" finished-at="2024-11-13T13:53:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:org.TestNgWorks.TestngDemo@726e5805]" started-at="2024-11-13T13:53:04 IST" name="test2" finished-at="2024-11-13T13:53:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- org.TestNgWorks.TestngDemo -->
+      <class name="NewTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="beforeSuite" finished-at="2024-11-13T13:52:58 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="beforeTest" finished-at="2024-11-13T13:52:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="beforeClass" finished-at="2024-11-13T13:52:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="beforeMethod" finished-at="2024-11-13T13:52:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="f" data-provider="dp" finished-at="2024-11-13T13:52:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="afterMethod" finished-at="2024-11-13T13:52:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="f" data-provider="dp" finished-at="2024-11-13T13:52:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="beforeMethod" finished-at="2024-11-13T13:52:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="afterMethod" finished-at="2024-11-13T13:52:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:52:58 IST" name="afterClass" finished-at="2024-11-13T13:52:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:53:18 IST" name="afterTest" finished-at="2024-11-13T13:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:NewTest@1e802ef9]" started-at="2024-11-13T13:53:18 IST" name="afterSuite" finished-at="2024-11-13T13:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- NewTest -->
+      <class name="org.testScripts.Adidas_Test">
+        <test-method signature="launchadidas()[pri:0, instance:org.testScripts.Adidas_Test@40c80397]" started-at="2024-11-13T13:53:04 IST" name="launchadidas" finished-at="2024-11-13T13:53:07 IST" duration-ms="3005" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Adidas is lauched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchadidas -->
+      </class> <!-- org.testScripts.Adidas_Test -->
+      <class name="org.testScripts.BMW_Test">
+        <test-method signature="launOne8()[pri:0, instance:org.testScripts.BMW_Test@4b672daa]" started-at="2024-11-13T13:53:07 IST" name="launOne8" finished-at="2024-11-13T13:53:12 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BMW is lauched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launOne8 -->
+      </class> <!-- org.testScripts.BMW_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
